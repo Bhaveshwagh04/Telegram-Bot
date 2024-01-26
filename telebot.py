@@ -16,6 +16,7 @@ class Reference:
 load_dotenv()
 openai.api_key = os.getenv("OpenAI_API_KEY")
 
+
 reference = Reference()
 
 TOKEN = os.getenv("TOKEN")
